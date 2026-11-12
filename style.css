@@ -52,3 +52,4 @@ nav a:not(.btn){display:none}
 .hero .wrap{padding-top:64px;padding-bottom:64px}
 section{padding:42px 0}
 }
+@media(max-width:520px){header .btn{padding:9px 14px;white-space:nowrap;font-size:14px}}
