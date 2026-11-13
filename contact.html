@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Juwelier 't Goudhuisje Oosterhout</title>
+<meta name="description" content="Juwelier 't Goudhuisje in Oosterhout, Arendshof 49. Gouden en zilveren sieraden, merkhorloges, aanzoeksringen en reparaties. Wat online staat, is op voorraad.">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<meta property="og:title" content="Juwelier 't Goudhuisje Oosterhout">
+<meta property="og:description" content="Gouden en zilveren sieraden, merkhorloges en reparaties in Oosterhout.">
+<meta property="og:image" content="https://goudhuisje.cafeboon.com/images/og.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+<a href="index.html"><img alt="Juwelier 't Goudhuisje" src="images/logo.jpg"/></a>
+<nav><a href="index.html">Home</a><a href="aanbod.html">Collectie</a><a aria-current="page" href="contact.html">Contact</a><a class="btn" href="tel:0162455877">Bel 0162-455877</a></nav>
+</div></header>
+<div aria-label="Pagina's" class="sn-bar" role="navigation"><a class="sn-link" href="index.html">Home</a><a class="sn-link" href="aanbod.html">Collectie</a><a aria-current="page" class="sn-link" href="contact.html">Contact</a></div>
+<main id="top">
+<div class="sn-head"><h1>Contact</h1></div>
+<section class="visit" id="openingstijden"><div class="wrap">
+<div>
+<h2>Openingstijden</h2>
+<div class="status" id="status"></div>
+<table>
+<tr data-d="1"><td>Maandag</td><td>13:00 tot 17:30</td></tr>
+<tr data-d="2"><td>Dinsdag</td><td>10:00 tot 17:30</td></tr>
+<tr data-d="3"><td>Woensdag</td><td>10:00 tot 17:30</td></tr>
+<tr data-d="4"><td>Donderdag</td><td>10:00 tot 17:30</td></tr>
+<tr data-d="5"><td>Vrijdag</td><td>10:00 tot 18:00</td></tr>
+<tr data-d="6"><td>Zaterdag</td><td>10:00 tot 17:00</td></tr>
+<tr data-d="0"><td>Zondag</td><td>Gesloten</td></tr>
+</table>
+<p>Ook welkom voor reparaties.</p>
+</div>
+<div>
+<h2>Adres en contact</h2>
+<p>Arendshof 49<br/>4901 LG Oosterhout</p>
+<p><a class="big" href="tel:0162455877">0162-455877</a><br/>Mobiel <a href="tel:0645471713">06-45 47 17 13</a><br/><a href="mailto:info@goudhuisje.nl">info@goudhuisje.nl</a></p>
+<p><a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Arendshof+49+4901+LG+Oosterhout">Route in Google Maps</a></p>
+<p><a href="https://facebook.com/juweliergoudhuisje">Facebook</a>   <a href="https://instagram.com/goudhuisje/">Instagram</a></p>
+</div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>Juwelier 't Goudhuisje, Oosterhout</span><a href="https://cafeboon.com">Voorbeeldontwerp door Cafe Boon</a></div></footer>
+<script>try{(function(){
+var h={1:[13,17.5],2:[10,17.5],3:[10,17.5],4:[10,17.5],5:[10,18],6:[10,17],0:null};
+var n=new Date(),d=n.getDay(),t=n.getHours()+n.getMinutes()/60;
+var r=document.querySelector('tr[data-d="'+d+'"]');if(r)r.className='today';
+var s=document.getElementById('status'),x=h[d];
+if(x&&t>=x[0]&&t<x[1]){s.className='status open';s.textContent='Nu geopend'}
+else{s.className='status closed';s.textContent='Nu gesloten'}
+})();}catch(e){}</script>
+</body></html>
